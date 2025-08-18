@@ -3,7 +3,6 @@
 ## O que entendi sobre o tutorial e sua importância
 
 O tutorial de Transformer do TensorFlow me mostrou, de forma prática, como funciona a arquitetura que hoje é a base de modelos de linguagem modernos (como BERT e GPT). Eu percebi que a importância dele não está só em ensinar a programar um tradutor, mas sim em mostrar como o Transformer pensa, como ele organiza a informação e como isso o torna tão poderoso em tarefas de NLP.  
-No meu caso, esse estudo foi essencial para conectar a teoria que eu já tinha lido com uma implementação de verdade.
 
 ## Estrutura e O que entendi sobre cada etapa
 
@@ -16,7 +15,7 @@ No meu caso, esse estudo foi essencial para conectar a teoria que eu já tinha l
    Entendi que, sem esse preparo, o modelo não teria como alinhar as entradas com as saídas corretamente, e o treino não funcionaria.
 
 2. **Embeddings posicionais**  
-   Como o Transformer não lê sequencialmente, o embedding posicional é o que dá ao modelo uma noção da posição de cada palavra. O que me chamou atenção foi o uso de senos e cossenos para gerar padrões numéricos diferentes em cada posição — uma forma matemática bem elegante de dar “ordem” às palavras. Eu percebi que isso evita confundir frases como:  
+   Comcialmente, o embedding posicional é o quo o Transformer não lê sequene dá ao modelo uma noção da posição de cada palavra. O que me chamou atenção foi o uso de senos e cossenos para gerar padrões numéricos diferentes em cada posição — uma forma matemática bem elegante de dar “ordem” às palavras. Eu percebi que isso evita confundir frases como:  
    - “o cachorro mordeu o menino”  
    - “o menino mordeu o cachorro”
 
@@ -38,9 +37,9 @@ No meu caso, esse estudo foi essencial para conectar a teoria que eu já tinha l
 ## Pontos Positivos 👍
 
 - **Entendimento profundo**: Cada etapa me fez refletir sobre como o Transformer funciona de forma integrada, não apenas como blocos separados.
-- **Exemplos práticos bem conectados**: Gostei de como cada trecho de código vinha acompanhado de explicações e era usado logo em seguida, o que ajudou a fixar melhor o aprendizado.
+- **Exemplos práticos bem conectados**: Gostei de como cada trecho de código vinha acompanhado de explicações e era usado logo em seguida.
 - **Integração com Keras**: A clareza na definição das camadas deixou o modelo mais acessível.
-- **Resultados animadores**: Foi muito motivador ver que mesmo um modelo relativamente simples já consegue gerar traduções razoáveis.
+- **Resultados animadores**: Foi muito bom ver que mesmo um modelo relativamente simples já consegue gerar traduções razoáveis.
 
 ## Pontos Negativos 👎
 
